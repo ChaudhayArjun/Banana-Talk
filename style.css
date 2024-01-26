@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0rem;
+    margin: 0%;
 }
 
 * {
@@ -12,6 +12,7 @@ body {
 nav {
     background-color: #facc15;
     text-align: center;
+    padding: 0.5rem;
 }
 
 main {
@@ -44,16 +45,26 @@ button {
     font-size: large;
     box-sizing: border-box;
     width: 100%;
-    min-height: 20vh;
+    min-height: 15vh;
+    overflow: scroll;
     border: 1px solid;
     border-radius: 0.5rem;
+}
+
+div {
+    display: block;
 }
 
 footer {
     background-color: #facc15;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0%;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+    padding: 0.5rem;
 }
