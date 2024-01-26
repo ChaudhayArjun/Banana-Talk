@@ -36,7 +36,7 @@ button {
     border: 1px solid;
     border-radius: 0.5rem;
     margin: 1rem 0rem;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     font-size: large;
 }
 
@@ -58,9 +58,8 @@ div {
 footer {
     background-color: #facc15;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     margin-top: 1rem;
-    margin-bottom: 0%;
 }
 
 footer p {
